@@ -1,0 +1,5 @@
+class ABC{
+    private variable;
+    
+
+}
