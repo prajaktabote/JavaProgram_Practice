@@ -1,0 +1,16 @@
+class Outer{
+    class Inner{
+        void m1(){
+            System.out.println("Inner-m1");
+        }
+    }
+    void m2(){
+        System.out.println("outer-m2 class");
+    }
+}
+class Client290{
+    public static void main(String args[]){
+        Inner obj=new Outer().new Inner();
+        obj.m1();
+    }
+}
